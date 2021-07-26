@@ -1,0 +1,129 @@
+<!-- Criação do CSS de estilos da nossa página-->
+
+        
+            span{
+                  font-size: 30px;
+                  font-family: quattrocento;
+                  font-weight: bold;
+                  color: #114817;
+              }
+              body {
+              background-image: url("Assets/fundo2.png");
+              }
+
+             .rodape {
+             font-size: 20px;
+             font-family: quattrocento;
+             font-weight: bold;
+             color: #6c8c6e;
+             background-color:#f2dea2; 
+
+             }
+             .botão {
+             border-color: #147336;
+             background-color:#f2f2f2;
+      
+             }
+    
+            footer{
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+             height: 50px;
+             padding: 15px;
+             text-align: center;
+             background-color: rgb(8, 8, 8);
+             color: #f2f2f2;
+           }
+           span {
+            font-size: 28px;
+            font-family: quattrocento;
+            font-weight: bold;
+            color: #114817;
+            text-align: center;
+          }
+      
+          body {
+            background-image: url("Assets/planta1.png");
+          }
+      
+          .campo_name {
+            position: relative;
+            left: 10px;
+            width: 260px;
+            color: #147336;
+            background-color: #f2f2f2;
+            font-size: 14px;
+            font-family: baskerville old face;
+          }
+      
+          .campo_email {
+            position: relative;
+            left: 10px;
+            width: 260px;
+            color: #147336;
+            background-color: #f2f2f2;
+            font-size: 14px;
+            font-family: baskerville old face;
+          }
+      
+          .campo_telefone {
+            position: relative;
+            left: 10px;
+            width: 260px;
+            color: #147336;
+            background-color: #f2f2f2;
+            font-size: 14px;
+            font-family: baskerville old face;
+          }
+      
+          .campo_assunto {
+            position: relative;
+            left: 10px;
+            width: 260px;
+            color: #147336;
+            background-color: #f2f2f2;
+            font-size: 14px;
+            font-family: baskerville old face;
+          }
+      
+          .campo_mensagem {
+            position: relative;
+            left: 10px;
+            width: 280px;
+            color: #147336;
+            background-color: #f2f2f2;
+            font-size: 14px;
+            font-family: baskerville old face;
+          }
+      
+          .botão {
+            border-color: #147336;
+            color: rgb(15, 61, 61);
+            font-size: 14px;
+            font-family: baskerville old face;
+            font-weight: bolder;
+          }
+      
+          /* Criando uma classe para o nome do formulário */
+      
+      
+          /* Criando uma formatação para ocomando nativo do HTML5*/
+          .label {
+            font-size: 20px;
+            font-family: quattrocento;
+            font-weight: bolder;
+            color: #114817;
+          }
+      
+          .legend {
+            font-size: 24px;
+            font-family: quattrocento;
+            font-weight: bolder;
+            color: #114817;
+          }
+      
+          .botão {
+            border-color: #147336;
+            background-color:#f2f2f2;
+            
+          }
+        
