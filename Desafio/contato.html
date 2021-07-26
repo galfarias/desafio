@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- chamada da biblioteca CSS do bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- chamada da biblioteca do JS do bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  <title> Contato </title>
+
+
+   
+</head>
+
+<body>
+  
+  <!-- Barra de Menu -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#"><img src="Assets/Logo H.png" width="30%"></a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="Index.html">Produtos <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+  <!-- Contemplação -->
+  <div class="row" align="center">
+    <!-- Primeira coluna -->
+    <div class="col-lg-2 col-md-2 col-sm-2"></div>
+    <!--  Coluna do meio -->
+    <div class="col-lg-8 col-md-8 col-sm-8"><span><h1>Contato</h1></span><br>
+
+
+      
+      <form id="contato" action="https://api.staticforms.xyz/submit" method="POST">
+        <!-- Habilitando a nossa chave de acesso ao e-mail-->
+        <input type="hidden" name="accessKey" value="0b1d3775-883c-446e-aec3-f7e5183b8166">
+        <fieldset>
+          <legend class="legend"><b>Fale conosco através do formulário abaixo:</b></legend><br>
+          <label class="label">Nome</label><input type="text" name="name" class="campo_name" required><br><br>
+          <label class="label">Email:</label><input type="text" name="email" class="campo_email" required><br><br>
+          <label class="label">Telefone:</label><input type="text" name="telefone" class="campo_telefone"
+            required><br><br>
+          <label class="label">Assunto:</label><input type="text" name="subject" class="campo_assunto" required><br><br>
+          <label class="label">Mensagem:</label><br>
+          <textarea cols="40" rows="4" name="message" class="campo_mensagem"></textarea><br>
+
+
+          <!-- Criando pagina de direcionamento-->
+          <input type="hidden" name="redirectTo" value="https://www.hjewels.com.br/">
+
+
+
+          <!-- outra forma de se criar um botão na estrutura do formulário-->
+          <button class="botão">Enviar Email</button><br><br><br>
+
+    </div>
+    </fieldset>
+    </form>
+
+    <!-- Ultima coluna -->
+    <div class="col-lg-2 col-md-2 col-sm-2"></div>
+
+  </div>
+
+
+  </div>
+  </div>
+    
+   
+      <br>
+    
+  
+    <Footer>
+      <p>Copyright © 2021. Todos os Direitos Reservados</p>
+  </Footer>
+</body>
+
+</html>
